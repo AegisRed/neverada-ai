@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>neverada.ai — Автономные AI-агенты для вашего бизнеса</title>
+  <meta name="description" content="neverada.ai — платформа автономных AI-агентов, которые автоматизируют рутину, работают 24/7 и масштабируют ваш бизнес без найма." />
+  <meta name="theme-color" content="#0a0a12" />
+  <meta property="og:title" content="neverada.ai — Автономные AI-агенты" />
+  <meta property="og:description" content="Разверните AI-агентов, которые работают, пока вы спите." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- ===== Navbar ===== -->
+  <nav class="nav">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <span class="logo-mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2"><path d="M12 2L3 7v10l9 5 9-5V7l-9-5z"/><path d="M12 22V12M3 7l9 5 9-5"/></svg>
+        </span>
+        neverada<span class="ai">.ai</span>
+      </a>
+      <div class="nav-links">
+        <a href="features.html">Возможности</a>
+        <a href="index.html#how">Как это работает</a>
+        <a href="pricing.html">Тарифы</a>
+        <a href="about.html">О нас</a>
+        <a href="contact.html">Контакты</a>
+      </div>
+      <div class="nav-actions">
+        <button class="theme-toggle" data-theme-toggle aria-label="Сменить тему"><span data-theme-icon></span></button>
+        <a href="login.html" class="btn btn-ghost btn-sm desktop-only">Войти</a>
+        <a href="signup.html" class="btn btn-primary btn-sm">Начать бесплатно</a>
+        <button class="nav-toggle" data-nav-toggle aria-label="Меню">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== Hero ===== -->
+  <header class="hero">
+    <div class="hero-orb a"></div>
+    <div class="hero-orb b"></div>
+    <div class="container">
+      <div class="hero-inner">
+        <span class="eyebrow"><span class="dot"></span>Новое поколение AI-автоматизации</span>
+        <h1>AI-агенты, которые <span class="gradient-text">работают, пока вы спите</span></h1>
+        <p class="lead">neverada.ai разворачивает автономных AI-агентов, которые автоматизируют продажи, поддержку и операции. Без кода. Без найма. За минуты.</p>
+        <div class="hero-cta">
+          <a href="signup.html" class="btn btn-primary btn-lg">Попробовать бесплатно →</a>
+          <a href="#how" class="btn btn-ghost btn-lg">Смотреть демо</a>
+        </div>
+        <div class="hero-trust">
+          <span>⭐️ <strong>4.9/5</strong> на G2</span>
+          <span><strong>12 000+</strong> команд</span>
+          <span>Без карты · 14 дней бесплатно</span>
+        </div>
+      </div>
+
+      <!-- Product mockup -->
+      <div class="hero-visual reveal">
+        <div class="mock-bar">
+          <div class="dots"><i></i><i></i><i></i></div>
+          <span class="url">app.neverada.ai/dashboard</span>
+        </div>
+        <div class="mock-body">
+          <aside class="mock-side">
+            <div class="mi active"><i></i> Обзор</div>
+            <div class="mi"><i></i> Агенты</div>
+            <div class="mi"><i></i> Задачи</div>
+            <div class="mi"><i></i> Аналитика</div>
+            <div class="mi"><i></i> Интеграции</div>
+            <div class="mi"><i></i> Настройки</div>
+          </aside>
+          <div class="mock-main">
+            <div class="mock-cards">
+              <div class="mock-card"><div class="k">Задач сегодня</div><div class="v">1 284</div></div>
+              <div class="mock-card"><div class="k">Активных агентов</div><div class="v">7</div></div>
+              <div class="mock-card"><div class="k">Успешность</div><div class="v up">99.2%</div></div>
+            </div>
+            <div class="mock-chart">
+              <div class="bar" style="height:40%"></div><div class="bar" style="height:65%"></div>
+              <div class="bar" style="height:52%"></div><div class="bar" style="height:80%"></div>
+              <div class="bar" style="height:70%"></div><div class="bar" style="height:92%"></div>
+              <div class="bar" style="height:60%"></div><div class="bar" style="height:100%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Logo cloud ===== -->
+  <section class="logos">
+    <div class="container">
+      <p>Нам доверяют команды из</p>
+      <div class="logos-row">
+        <span>Northwind</span><span>Acme Corp</span><span>Lumen</span><span>Vertex</span><span>Quantica</span><span>Nexora</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Features ===== -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span>Возможности</span>
+        <h2>Всё, что нужно для <span class="gradient-text">автономной работы</span></h2>
+        <p>Мощная платформа, которая заменяет десятки инструментов и часы ручного труда.</p>
+      </div>
+      <div class="grid features-grid">
+        <div class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4M8 16h.01M16 16h.01"/></svg></div>
+          <h3>Автономные агенты</h3>
+          <p>Агенты сами планируют, принимают решения и выполняют многошаговые задачи без вашего участия.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+          <h3>Настройка за минуты</h3>
+          <p>Визуальный конструктор без кода. Опишите задачу на естественном языке — агент готов к работе.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 1 1-6.2-8.5"/><path d="M22 4L12 14.01l-3-3"/></svg></div>
+          <h3>200+ интеграций</h3>
+          <p>Slack, Gmail, HubSpot, Notion, Salesforce и сотни других. Подключается к вашему стеку за клик.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 6v6l4 2"/></svg></div>
+          <h3>Работа 24/7</h3>
+          <p>Агенты не спят и не берут отпуск. Задачи выполняются круглосуточно, в любом часовом поясе.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></div>
+          <h3>Аналитика в реальном времени</h3>
+          <p>Отслеживайте эффективность, ROI и экономию времени по каждому агенту в наглядных дашбордах.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <h3>Безопасность enterprise</h3>
+          <p>SOC 2 Type II, шифрование данных, SSO и полный контроль доступа. Ваши данные под защитой.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Stats ===== -->
+  <section class="section-sm">
+    <div class="container">
+      <div class="stats">
+        <div class="stat reveal"><div class="num"><span data-count="12" data-suffix="K+">0</span></div><div class="lbl">Активных команд</div></div>
+        <div class="stat reveal"><div class="num"><span data-count="4.2" data-suffix="M">0</span></div><div class="lbl">Задач в месяц</div></div>
+        <div class="stat reveal"><div class="num"><span data-count="99.2" data-suffix="%">0</span></div><div class="lbl">Аптайм платформы</div></div>
+        <div class="stat reveal"><div class="num"><span data-count="340" data-suffix="ч">0</span></div><div class="lbl">Экономия в месяц</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Feature deep-dive ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="feature-row">
+        <div class="feature-text reveal">
+          <span class="eyebrow"><span class="dot"></span>Конструктор агентов</span>
+          <h2>Опишите задачу — <span class="gradient-text">агент сделает остальное</span></h2>
+          <p>Забудьте про сложные схемы автоматизации. Просто напишите, что нужно сделать, и neverada.ai соберёт агента с нужными инструментами и логикой.</p>
+          <ul class="feature-list">
+            <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span>Естественный язык вместо кода</li>
+            <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span>Библиотека готовых шаблонов</li>
+            <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span>Тонкая настройка поведения и границ</li>
+          </ul>
+        </div>
+        <div class="feature-media reveal">
+          <div class="code-window">
+            <div class="cw-bar"><i></i><i></i><i></i></div>
+            <pre><code><span class="tok-com"># Создаём агента одной строкой</span>
+<span class="tok-key">agent</span> = neverada.<span class="tok-fn">create</span>(
+  name=<span class="tok-str">"Sales Outreach"</span>,
+  goal=<span class="tok-str">"Находить лидов и писать письма"</span>,
+  tools=[<span class="tok-str">"gmail"</span>, <span class="tok-str">"hubspot"</span>, <span class="tok-str">"linkedin"</span>],
+  schedule=<span class="tok-str">"daily"</span>,
+)
+
+<span class="tok-key">await</span> agent.<span class="tok-fn">run</span>()
+<span class="tok-com"># ✓ 48 писем отправлено, 12 ответов</span></code></pre>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-row reverse">
+        <div class="feature-text reveal">
+          <span class="eyebrow"><span class="dot"></span>Оркестрация</span>
+          <h2>Команды агентов, <span class="gradient-text">которые сотрудничают</span></h2>
+          <p>Объединяйте агентов в рабочие процессы. Один находит лидов, другой пишет, третий анализирует результаты — всё автоматически и синхронно.</p>
+          <ul class="feature-list">
+            <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span>Визуальный редактор процессов</li>
+            <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span>Передача контекста между агентами</li>
+            <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span>Условная логика и ветвление</li>
+          </ul>
+        </div>
+        <div class="feature-media reveal">
+          <div style="display:grid;gap:14px;">
+            <div class="agent-item"><div class="ai-ico">LG</div><div class="meta"><div class="nm">Lead Gen</div><div class="desc">Нашёл 128 новых лидов</div></div><span class="status-pill active">active</span></div>
+            <div style="text-align:center;color:var(--text-dim)">↓</div>
+            <div class="agent-item"><div class="ai-ico">WR</div><div class="meta"><div class="nm">Writer</div><div class="desc">Сгенерировал 128 писем</div></div><span class="status-pill active">active</span></div>
+            <div style="text-align:center;color:var(--text-dim)">↓</div>
+            <div class="agent-item"><div class="ai-ico">AN</div><div class="meta"><div class="nm">Analyst</div><div class="desc">Отчёт готов: 23% открытий</div></div><span class="status-pill active">active</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== How it works ===== -->
+  <section class="section" id="how">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span>Как это работает</span>
+        <h2>Запуск за <span class="gradient-text">три шага</span></h2>
+        <p>От идеи до работающего агента — меньше пяти минут.</p>
+      </div>
+      <div class="grid steps">
+        <div class="step reveal"><div class="n">01</div><h3>Опишите задачу</h3><p>Расскажите, что нужно автоматизировать, простым языком. Или выберите готовый шаблон из библиотеки.</p></div>
+        <div class="step reveal"><div class="n">02</div><h3>Подключите инструменты</h3><p>Свяжите нужные сервисы в один клик. Агент получит доступ к вашим данным безопасно.</p></div>
+        <div class="step reveal"><div class="n">03</div><h3>Запустите и масштабируйте</h3><p>Агент работает автономно. Следите за результатами и добавляйте новых агентов по мере роста.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Testimonials ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span>Отзывы</span>
+        <h2>Любимы командами <span class="gradient-text">по всему миру</span></h2>
+      </div>
+      <div class="grid testi-grid">
+        <div class="testi reveal">
+          <div class="stars">★★★★★</div>
+          <p class="quote">«За первый месяц агенты neverada заменили работу двух менеджеров по продажам. ROI окупился за неделю.»</p>
+          <div class="who"><div class="avatar">АК</div><div><div class="name">Анна Ковалёва</div><div class="role">CEO, Northwind</div></div></div>
+        </div>
+        <div class="testi reveal">
+          <div class="stars">★★★★★</div>
+          <p class="quote">«Настроили агента поддержки за 10 минут. Теперь 70% тикетов закрываются без участия человека.»</p>
+          <div class="who"><div class="avatar">МД</div><div><div class="name">Максим Дорохов</div><div class="role">CTO, Lumen</div></div></div>
+        </div>
+        <div class="testi reveal">
+          <div class="stars">★★★★★</div>
+          <p class="quote">«Лучшая инвестиция года. Мы масштабировали операции без единого нового найма.»</p>
+          <div class="who"><div class="avatar">ЕС</div><div><div class="name">Елена Смирнова</div><div class="role">COO, Vertex</div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="dot"></span>FAQ</span>
+        <h2>Частые вопросы</h2>
+      </div>
+      <div class="faq reveal">
+        <div class="faq-item"><button class="faq-q">Нужны ли навыки программирования?<span class="plus"></span></button><div class="faq-a"><p>Нет. neverada.ai полностью работает без кода — вы описываете задачи на естественном языке. Для продвинутых сценариев есть API и SDK.</p></div></div>
+        <div class="faq-item"><button class="faq-q">Насколько безопасны мои данные?<span class="plus"></span></button><div class="faq-a"><p>Мы сертифицированы по SOC 2 Type II, шифруем данные в покое и при передаче, поддерживаем SSO и гранулярный контроль доступа. Ваши данные никогда не используются для обучения моделей.</p></div></div>
+        <div class="faq-item"><button class="faq-q">Могу ли я попробовать бесплатно?<span class="plus"></span></button><div class="faq-a"><p>Да! 14 дней полного доступа без привязки карты. После — есть бесплатный тариф навсегда.</p></div></div>
+        <div class="faq-item"><button class="faq-q">С какими сервисами есть интеграции?<span class="plus"></span></button><div class="faq-a"><p>Более 200 интеграций: Slack, Gmail, HubSpot, Salesforce, Notion, Zapier, Google Workspace и многие другие. Также доступен вебхук и REST API.</p></div></div>
+        <div class="faq-item"><button class="faq-q">Могу ли я отменить подписку в любой момент?<span class="plus"></span></button><div class="faq-a"><p>Конечно. Никаких контрактов и скрытых комиссий — отменяйте или меняйте тариф в один клик.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA band ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-band reveal">
+        <div class="orb"></div>
+        <h2>Готовы автоматизировать бизнес?</h2>
+        <p>Присоединяйтесь к 12 000+ команд, которые доверяют neverada.ai свою рутину.</p>
+        <div class="hero-cta" style="margin-bottom:0">
+          <a href="signup.html" class="btn btn-primary btn-lg">Начать бесплатно →</a>
+          <a href="contact.html" class="btn btn-ghost btn-lg">Связаться с продажами</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2"><path d="M12 2L3 7v10l9 5 9-5V7l-9-5z"/><path d="M12 22V12M3 7l9 5 9-5"/></svg></span>
+            neverada<span class="ai">.ai</span>
+          </a>
+          <p>Автономные AI-агенты, которые автоматизируют ваш бизнес и работают круглосуточно.</p>
+          <form data-newsletter class="flex" style="gap:8px;max-width:300px">
+            <input type="email" required placeholder="Ваш email" style="flex:1;padding:10px 14px;border-radius:10px;background:var(--surface);border:1px solid var(--border-strong);color:var(--text)" />
+            <button class="btn btn-primary btn-sm" type="submit">→</button>
+          </form>
+        </div>
+        <div class="footer-col">
+          <h4>Продукт</h4>
+          <a href="features.html">Возможности</a>
+          <a href="pricing.html">Тарифы</a>
+          <a href="index.html#how">Как работает</a>
+          <a href="dashboard.html">Дашборд</a>
+        </div>
+        <div class="footer-col">
+          <h4>Компания</h4>
+          <a href="about.html">О нас</a>
+          <a href="contact.html">Контакты</a>
+          <a href="#">Блог</a>
+          <a href="#">Карьера</a>
+        </div>
+        <div class="footer-col">
+          <h4>Ресурсы</h4>
+          <a href="#">Документация</a>
+          <a href="#">API</a>
+          <a href="#">Статус</a>
+          <a href="#">Поддержка</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year></span> neverada.ai. Все права защищены.</span>
+        <div class="footer-social">
+          <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18 2h3l-7 8 8 12h-6l-5-6-5 6H3l7-9L2 2h6l4 5 6-5z"/></svg></a>
+          <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 2a10 10 0 0 0-3 19.5c.5.1.7-.2.7-.5v-2c-2.8.6-3.4-1.2-3.4-1.2-.5-1-1-1.3-1-1.3-.9-.6 0-.6 0-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1 2.9.8.1-.6.3-1 .6-1.3-2.2-.2-4.5-1.1-4.5-5 0-1 .4-1.9 1-2.5-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.3.1 2.6.6.6 1 1.5 1 2.5 0 3.9-2.3 4.8-4.5 5 .4.3.7.9.7 1.9v2.7c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.7-1.3 2.4-2.6 4.9-2.6 5.2 0 6.2 3.4 6.2 7.9V24h-5v-7.6c0-1.8 0-4.1-2.5-4.1s-2.9 2-2.9 4V24h-5V8z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>
